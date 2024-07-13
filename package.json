@@ -1,0 +1,38 @@
+{
+  "name": "discord-bot-boilerplate",
+  "version": "0.0.0",
+  "description": "🤖 sech1p bare bones project to develop Discord bots in TypeScript",
+  "private": true,
+  "main": "dist/Bot.js",
+  "scripts": {
+    "start": "node dist/Bot.js",
+    "build": "npx tsc --build",
+    "clean": "npx tsc --clean",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sech1p/discord-bot-boilerplate.git"
+  },
+  "keywords": [
+    "discord",
+    "bot"
+  ],
+  "author": "Eliza \"sech1p\" Semeniuk <sech1p@disroot.org>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/sech1p/discord-bot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sech1p/discord-bot-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "eris": "^0.17.2",
+    "glob-promise": "^6.0.7",
+    "moment": "^2.30.1",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4"
+  }
+}
